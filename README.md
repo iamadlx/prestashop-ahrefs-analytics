@@ -17,6 +17,16 @@ This module injects the official Ahrefs tracking script inside the `<head>` via 
 Get the latest version from the **Releases** page:  
 https://github.com/iamadlx/prestashop-ahrefs-analytics/releases
 
+## Hosting recommendation (optional)
+
+If you're looking for a hosting provider with **1-click PrestaShop installation**, easy maintenance, and automated backups, Infomaniak offers a dedicated PrestaShop hosting plan:
+
+- **1-click installation** + easy management  
+- **Easy updates** + protection against known security vulnerabilities  
+- **Automatic backups & restore**
+
+👉 https://www.infomaniak.com/fr/creer-un-site/cms/hebergement-prestashop?utm_term=5f980010e7533
+
 ## Installation (30 seconds)
 
 1. Download the latest release zip.
