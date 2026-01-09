@@ -1,52 +1,35 @@
-# Ahrefs Web Analytics — PrestaShop module
+# Ahrefs Web Analytics for PrestaShop
 
-A tiny, **theme-update-safe** PrestaShop module that injects **Ahrefs Web Analytics** tracking script into the **`<head>`** of your store using the `displayHeader` hook.
+A minimal, update-proof Ahrefs Web Analytics integration for PrestaShop.
+This module injects the official Ahrefs tracking script inside the `<head>` via `displayHeader`.
 
-✅ No theme edits (safe with theme updates)  
-✅ Simple Back Office configuration  
-✅ Works great with Ahrefs free **Webmaster Tools**  
-✅ PrestaShop 1.7 / 8.x compatible (should also work on 9 if `displayHeader` is available)
-✅ Back Office UI in **English & French**
+✅ No theme edits (safe for theme updates)  
+✅ Back-office configuration (enable/disable + data-key)  
+✅ Works with PrestaShop 1.7 / 8.x (and should be compatible with newer versions that keep `displayHeader`)  
 
----
+## Download
 
-## Download / Install
+Get the latest version from the **Releases** page:  
+https://github.com/iamadlx/prestashop-ahrefs-analytics/releases
 
-➡️ Download the **latest release** here:  
-`https://github.com/iamadlx/prestashop-ahrefs-analytics/releases`
+## Installation (30 seconds)
 
-Then in PrestaShop Back Office:
+1. Download the latest release zip.
+2. In PrestaShop Back Office: **Modules → Module Manager → Upload a module**
+3. Upload the zip and install it.
 
-1. **Modules → Module Manager**
-2. **Upload a module**
-3. Upload the `.zip` and install
+## Setup
 
----
+1. Create a free Ahrefs Webmaster Tools account: https://ahrefs.com/webmaster-tools
+2. In Ahrefs, open **Web Analytics** and copy your `data-key`.
+3. In PrestaShop: **Modules → Ahrefs Web Analytics → Configure**
+4. Paste the key, enable tracking, and save.
+5. Back in Ahrefs, click **Verify installation**.
 
-## Configure
+## Privacy / GDPR
 
-Back Office → **Modules → Ahrefs Web Analytics → Configure**
-
-1. Create a free account: `https://ahrefs.com/webmaster-tools`
-2. In Ahrefs: **Web Analytics → Installation guide**
-3. Copy the value from `data-key="..."`
-4. Paste it into the module settings, enable tracking, and save
-5. In Ahrefs, click **Verify installation**
-
-Injected snippet:
-
-```html
-<script src="https://analytics.ahrefs.com/analytics.js" data-key="YOUR_KEY" async></script>
-```
-
----
-
-## Privacy / GDPR note
-
-Ahrefs states their Web Analytics is privacy-friendly by design.  
-You are still responsible for complying with GDPR/ePrivacy regulations that apply to your business.
-
----
+Ahrefs states that Web Analytics is privacy-friendly and doesn’t require cookie banners by default.
+You are still responsible for complying with GDPR and local privacy regulations.
 
 ## License
 
