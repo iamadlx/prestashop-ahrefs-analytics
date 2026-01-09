@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>ahrefsanalytics</name>
+  <displayName><![CDATA[Ahrefs Web Analytics]]></displayName>
+  <version><![CDATA[1.0.8]]></version>
+  <description><![CDATA[Injects the Ahrefs Web Analytics script in the <head> via displayHeader (theme-update safe).]]></description>
+  <author><![CDATA[ADLX]]></author>
+  <tab><![CDATA[analytics_stats]]></tab>
+  <is_configurable>1</is_configurable>
+  <need_instance>0</need_instance>
+</module>
