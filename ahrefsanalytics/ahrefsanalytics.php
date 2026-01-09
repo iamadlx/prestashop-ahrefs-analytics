@@ -26,7 +26,7 @@ class AhrefsAnalytics extends Module
     {
         $this->name = 'ahrefsanalytics';
         $this->tab = 'analytics_stats';
-        $this->version = '1.0.8';
+        $this->version = '1.1.0';
         $this->author = 'ADLX';
         $this->need_instance = 0;
 
